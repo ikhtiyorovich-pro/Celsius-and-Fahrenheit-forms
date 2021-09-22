@@ -1,0 +1,55 @@
+.all-wrapper {
+  width: 100%;
+  background-image: url(/images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 136px;
+  padding-bottom: 325px;
+}
+
+.heading-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.heading {
+  color: white;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 585px;
+  margin: 0 auto;
+}
+
+.fahrenheit-input {
+  width: 100%;
+  margin: 10px 0 5px 0;
+}
+
+.celsius-input {
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+.button {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.temperatures{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+}
+
+.formula-text{
+  font-size: 20px;
+  padding: 5px 0;
+  color: white;
+  background-color: black;
+  text-align: center;
+}

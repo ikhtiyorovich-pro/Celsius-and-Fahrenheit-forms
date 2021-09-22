@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Running</title>
+  </head>
+  <body>
+    <div class="all-wrapper">
+      <div class="d-block heading-wrapper">
+        <h1 class="heading">Temperature compare</h1>
+      </div>
+      <div class="form-wrapper">
+        <form class="form" action="#">
+          <div class="d-block js-fahrenheit-wrapper">
+            <label for="Fahrenheit"
+              ><span class="temperatures">Fahrenheit👇🏻</span></label
+            >
+            <input
+              class="fahrenheit-input"
+              type="number"
+              name="Fahrenheit"
+              id="Fahrenheit"
+              autocomplete="off"
+            />
+          </div>
+          <div class="d-block js-celsius-wrapper">
+            <label for="Celsius"
+              ><span class="temperatures">Celsius👇🏻</span></label
+            >
+            <input
+              class="celsius-input"
+              type="number"
+              name="Celsius"
+              id="Celsius"
+              autocomplete="off"
+            />
+          </div>
+        </form>
+        <p class="result formula-text">Formula</p>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+    
+  </body>
+</html>
